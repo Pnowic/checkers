@@ -23,10 +23,11 @@ document.addEventListener("DOMContentLoaded", function(){
             }
 
         }
+
     };
 
     drawBoard ();
+    module.export = drawBoard;
 });
 
 
-module.export = drawBoard;
